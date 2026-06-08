@@ -38,12 +38,12 @@ export async function validateApiKey(apiKey) {
 
 
 export const PLATFORMS_LIST = [
-  { id: 7,   name: 'PC' },
+  { id: 4,   name: 'PC' },
   { id: 187, name: 'PS5' },
   { id: 18,  name: 'PS4' },
   { id: 186, name: 'Xbox Series X/S' },
   { id: 1,   name: 'Xbox One' },
-  { id: 83,  name: 'Nintendo Switch' },
+  { id: 7,   name: 'Nintendo Switch' },
   { id: 21,  name: 'Android' },
   { id: 3,   name: 'iOS' },
 ]
