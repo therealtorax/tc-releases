@@ -187,7 +187,7 @@ export default function Dashboard({ config, onReset }) {
       {/* Header */}
       <header style={s.header}>
         <div>
-          <span style={s.logoSub}>TechCafé Play</span>
+  
           <div style={s.logo}>TC<span style={s.logoAccent}>.</span>RELEASES</div>
         </div>
         <div style={s.headerRight}>
