@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TC Releases — TechCafé Play</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      :root {
+        --bg: #0e0e0e;
+        --bg2: #161616;
+        --bg3: #1f1f1f;
+        --border: #2a2a2a;
+        --text: #e8e4dc;
+        --muted: #6b6b6b;
+        --accent: #f05a1a;
+        --accent2: #ff8c4a;
+        --white: #ffffff;
+      }
+      html, body, #root {
+        height: 100%;
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400;
+      }
+      * { scrollbar-width: thin; scrollbar-color: var(--border) var(--bg); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
