@@ -194,7 +194,7 @@ export default function Onboarding({ onComplete }) {
   return (
     <div style={s.wrap}>
       <div style={s.header}>
-        <span style={s.tag}>TechCafé Play</span>
+  
         <div style={s.title}>
           TC<span style={s.accent}>.</span>RELEASES
         </div>
